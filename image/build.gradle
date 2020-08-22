@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+apply from: '../depend-config.gradle'
+apply from: file('publish.gradle')
+
+android {
+    compileSdkVersion ver.compileVersion
+
+    defaultConfig {
+        minSdkVersion ver.minVersion
+        targetSdkVersion ver.targetVersion
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        beta {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation depend.design
+    api depend.glide
+    api depend.zhihu
+    api depend.imageCompressed
+    api depend.id_card_camera
+    compileOnly project(":config")
+}

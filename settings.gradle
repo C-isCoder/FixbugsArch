@@ -1,0 +1,11 @@
+include ':zxing'
+include ':image'
+include ':http'
+include ':common'
+include ':logger'
+include ':config'
+include ':cache'
+include ':bankcard'
+include ':architecture'
+include ':app'
+rootProject.name = "FixbugsArch"

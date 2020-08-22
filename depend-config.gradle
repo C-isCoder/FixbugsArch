@@ -1,0 +1,37 @@
+ext {
+    ver = [
+            compileVersion: 28,
+
+            minVersion    : 23,
+            targetVersion : 28,
+    ]
+
+    depend = [
+            v7             : 'androidx.appcompat:appcompat:1.2.0',
+            recyclerview   : 'androidx.recyclerview:recyclerview:1.1.0',
+            design         : 'com.google.android.material:material:1.2.0',
+
+            rxpermissions  : 'com.tbruyelle.rxpermissions:rxpermissions:0.9.3@aar',
+            banner         : 'com.youth.banner:banner:1.4.5',
+
+            glide          : 'com.github.bumptech.glide:glide:4.11.0',
+            glide_compiler : 'com.github.bumptech.glide:compiler:4.11.0',
+            imageCompressed: 'com.zxy.android:tiny:1.1.0',
+
+            urlconnection  : 'com.squareup.okhttp3:okhttp-urlconnection:3.2.0',
+            retrofit       : 'com.squareup.retrofit2:retrofit:2.5.0',
+            rxjava2        : 'io.reactivex.rxjava2:rxjava:2.2.5',
+            rxandroid2     : 'io.reactivex.rxjava2:rxandroid:2.1.0',
+            gsonconverter2 : 'com.squareup.retrofit2:converter-gson:2.5.0',
+            rxjavaadapter2 : 'com.squareup.retrofit2:adapter-rxjava2:2.5.0',
+
+            logan          : 'com.dianping.android.sdk:com.dianping.logan:1.1.0',
+            cache          : 'com.tencent:mmkv:1.0.17',
+            zhihu          : 'com.zhihu.android:matisse:0.5.2-beta4',
+            router         : 'com.alibaba:arouter-api:1.4.1',
+            router_compiler: 'com.alibaba:arouter-compiler:1.2.2',
+            id_card_camera : 'com.github.wildma:IDCardCamera:1.0.2',
+            zxing          : 'com.google.zxing:core:3.3.3',
+            zxing_android  : 'com.google.zxing:android-core:3.3.0',
+    ]
+}

@@ -1,0 +1,4 @@
+<resources>
+   <string name="toast_flash">当前设备不支持闪光灯</string>
+   <string name="toast_camera">无法启用相机</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="half_transparent">#55000000</color>
+    <color name="transparent_22">#22000000</color>
+    <color name="white">@android:color/white</color>
+    <color name="white_alpha_50">#50FFFFFF</color>
+    <color name="black">@android:color/black</color>
+
+    <color name="top_bar_color">#FFFFFFFF</color>
+    <color name="top_bar_title_color">#000000</color>
+    <color name="background_color">#F7F7F7</color>
+
+    <color name="font_color_blue">#FF24A7F7</color>
+    <color name="font_color_blueFF40B8FF">#FF40B8FF</color>
+    <color name="font_color_white">@android:color/white</color>
+    <color name="font_color_green">#FF7AC62D</color>
+    <color name="font_color_50EDD4">#50EDD4</color>
+    <color name="font_color_99FF00">#99FF00</color>
+    <color name="font_color_ED7C44">#ED7C44</color>
+    <color name="font_color_pink">#FFF75A6F</color>
+    <color name="font_color_pure">#FFBE23FF</color>
+    <color name="font_color_pure_dark">#FF7D13A9</color>
+    <color name="font_color_yellow">#FFFAA700</color>
+    <color name="font_color_yellow45">#FFFE4E45</color>
+    <color name="font_color_red">#FFF62628</color>
+    <color name="font_color_black">#FF000000</color>
+    <color name="font_color_black00">#B3000000</color>
+    <color name="font_color_blackCC">#FFCCCCCC</color>
+    <color name="font_color_blackDD">#FFDBD5DD</color>
+    <color name="font_color_blackBD">#FFBDBDBD</color>
+    <color name="font_color_blackDB">#FFDBDBDB</color>
+    <color name="font_color_black26">#FF262626</color>
+    <color name="font_color_black22">#FF222222</color>
+    <color name="font_color_black33">#FF333333</color>
+    <color name="font_color_black42">#FF424242</color>
+    <color name="font_color_black53">#FF535353</color>
+    <color name="font_color_black66">#FF666666</color>
+    <color name="font_color_black80">#FF808080</color>
+    <color name="font_color_black88">#FF888888</color>
+    <color name="font_color_blackF8">#FFF8F8F8</color>
+    <color name="font_color_black87">#FF878787</color>
+    <color name="font_color_black75">#FF757575</color>
+    <color name="font_color_black99">#FF999999</color>
+    <color name="font_color_black9E">#FF9E9E9E</color>
+    <color name="font_color_black9B">#FF9B9B9B</color>
+    <color name="font_color_blackF9">#FFF9F9F9</color>
+    <color name="font_color_price">#FFF62628</color>
+
+    <color name="hint_font_color">#FFCCCCCC</color>
+    <color name="tips_font_color">#FF999999</color>
+
+    <color name="line_color">#FFE5E5E5</color>
+
+    <color name="color_323232">#323232</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_FF222122">#FF222122</color>
+    <color name="color_FF8B2B">#FF8B2B</color>
+    <color name="color_FF3434">#FF3434</color>
+    <color name="color_FE4D4D">#FE4D4D</color>
+    <color name="color_E8E9EB">#E8E9EB</color>
+    <color name="color_35C69B">#35C69B</color>
+    <color name="color_00A0E9">#00A0E9</color>
+    <color name="color_0072E3">#0072E3</color>
+    <color name="color_EAEAEA">#EAEAEA</color>
+    <color name="color_60EAEAEA">#60EAEAEA</color>
+    <color name="color_F6F6F6">#F6F6F6</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_FFFD493E">#fffd493e</color>
+
+    //云集配
+    <color name="color_B3B3B3">#B3B3B3</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+
+</resources>
+
