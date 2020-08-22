@@ -1,7 +1,7 @@
 apply plugin: 'maven-publish'
 
 def LIB_GROUP_ID = 'com.fixbugs.android'
-def LIB_ARTIFACT_ID = 'logger'
+def LIB_ARTIFACT_ID = 'image'
 def LIB_VERSION = '0.0.1'
 
 task sourceJar(type: Jar) {

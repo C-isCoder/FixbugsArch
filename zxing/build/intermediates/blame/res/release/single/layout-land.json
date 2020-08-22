@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/icong/Project/android/FixbugsArch/zxing/build/intermediates/res/merged/release/layout-land/encode.xml",
+        "source": "/Users/icong/Project/android/FixbugsArch/zxing/src/main/res/layout-land/encode.xml"
+    },
+    {
+        "merged": "/Users/icong/Project/android/FixbugsArch/zxing/build/intermediates/res/merged/release/layout-land/share.xml",
+        "source": "/Users/icong/Project/android/FixbugsArch/zxing/src/main/res/layout-land/share.xml"
+    }
+]

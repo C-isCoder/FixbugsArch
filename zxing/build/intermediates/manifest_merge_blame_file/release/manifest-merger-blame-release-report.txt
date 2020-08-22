@@ -1,0 +1,295 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2008 ZXing authors
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.google.zxing.client.android"
+19    android:installLocation="auto"
+20    android:versionCode="108"
+21    android:versionName="4.7.8" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="23"
+24-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml
+25        android:targetSdkVersion="28" />
+25-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml
+26
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:22:4-64
+27-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:22:21-61
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:23:4-66
+28-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:23:21-63
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:24:4-65
+29-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:24:21-62
+30    <uses-permission android:name="android.permission.FLASHLIGHT" />
+30-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:25:4-68
+30-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:25:21-65
+31    <uses-permission android:name="android.permission.READ_CONTACTS" />
+31-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:26:4-71
+31-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:26:21-68
+32    <!-- unavailable in API 23 -->
+33    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+33-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:28:4-92
+33-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:28:21-89
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:29:4-80
+34-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:29:21-77
+35    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+35-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:30:4-75
+35-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:30:21-72
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+36-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:31:4-75
+36-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:31:21-72
+37
+38    <uses-feature android:name="android.hardware.camera.any" />
+38-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:33:4-63
+38-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:33:18-60
+39    <uses-feature
+39-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:34:4-36:35
+40        android:name="android.hardware.camera.autofocus"
+40-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:35:8-56
+41        android:required="false" />
+41-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:36:8-32
+42    <uses-feature
+42-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:37:4-39:35
+43        android:name="android.hardware.camera.flash"
+43-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:38:8-52
+44        android:required="false" />
+44-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:39:8-32
+45    <uses-feature android:name="android.hardware.screen.landscape" />
+45-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:40:4-69
+45-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:40:18-66
+46    <uses-feature
+46-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:41:4-43:35
+47        android:name="android.hardware.wifi"
+47-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:42:8-44
+48        android:required="false" />
+48-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:43:8-32
+49
+50    <application android:allowBackup="true" >
+50-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:45:4-169:18
+50-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:45:17-43
+51        <activity
+51-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:46:7-108:18
+52            android:name="com.google.zxing.client.android.CaptureActivity"
+52-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:47:11-42
+53            android:screenOrientation="portrait"
+53-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:48:11-47
+54            android:stateNotNeeded="true"
+54-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:49:11-40
+55            android:theme="@style/CaptureTheme"
+55-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:50:11-46
+56            android:windowSoftInputMode="stateAlwaysHidden" >
+56-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:51:11-58
+57
+58            <!-- <intent-filter> -->
+59            <!-- <action android:name="android.intent.action.MAIN"/> -->
+60            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+61            <!-- </intent-filter> -->
+62            <!-- <intent-filter> -->
+63            <!-- <action android:name="com.google.zxing.client.android.SCAN"/> -->
+64            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+65            <!-- </intent-filter> -->
+66            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+67            <!-- <intent-filter> -->
+68            <!-- <action android:name="android.intent.action.VIEW"/> -->
+69
+70
+71            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+72            <!-- <category android:name="android.intent.category.BROWSABLE"/> -->
+73
+74
+75            <!-- <data -->
+76            <!-- android:host="zxing.appspot.com" -->
+77            <!-- android:path="/scan" -->
+78            <!-- android:scheme="http"/> -->
+79            <!-- </intent-filter> -->
+80            <!-- We also support a Google Product Search URL. -->
+81            <!-- <intent-filter> -->
+82            <!-- <action android:name="android.intent.action.VIEW"/> -->
+83
+84
+85            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+86            <!-- <category android:name="android.intent.category.BROWSABLE"/> -->
+87
+88
+89            <!-- <data -->
+90            <!-- android:host="www.google.com" -->
+91            <!-- android:path="/m/products/scan" -->
+92            <!-- android:scheme="http"/> -->
+93            <!-- </intent-filter> -->
+94            <!-- And the UK version. -->
+95            <!-- <intent-filter> -->
+96            <!-- <action android:name="android.intent.action.VIEW"/> -->
+97
+98
+99            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+100            <!-- <category android:name="android.intent.category.BROWSABLE"/> -->
+101
+102
+103            <!-- <data -->
+104            <!-- android:host="www.google.co.uk" -->
+105            <!-- android:path="/m/products/scan" -->
+106            <!-- android:scheme="http"/> -->
+107            <!-- </intent-filter> -->
+108            <!-- Support zxing://scan/?... like iPhone app -->
+109            <!-- <intent-filter> -->
+110            <!-- <action android:name="android.intent.action.VIEW"/> -->
+111
+112
+113            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+114            <!-- <category android:name="android.intent.category.BROWSABLE"/> -->
+115
+116
+117            <!-- <data -->
+118            <!-- android:host="scan" -->
+119            <!-- android:path="/" -->
+120            <!-- android:scheme="zxing"/> -->
+121            <!-- </intent-filter> -->
+122        </activity>
+123        <activity
+123-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:109:7-112:43
+124            android:name="com.google.zxing.client.android.PreferencesActivity"
+124-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:110:11-46
+125            android:label="@string/preferences_name"
+125-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:111:11-51
+126            android:stateNotNeeded="true" />
+126-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:112:11-40
+127        <activity
+127-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:113:7-132:18
+128            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+128-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:114:11-48
+129            android:stateNotNeeded="true" >
+129-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:115:11-40
+130            <intent-filter>
+130-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:116:10-119:26
+131                <action android:name="com.google.zxing.client.android.ENCODE" />
+131-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:117:13-77
+131-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:117:21-74
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:13-72
+133-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:23-69
+134            </intent-filter>
+135            <!-- This allows us to handle the Share button in Contacts. -->
+136            <intent-filter>
+136-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:121:10-125:26
+137                <action android:name="android.intent.action.SEND" />
+137-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:122:13-65
+137-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:122:21-62
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:13-72
+139-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:23-69
+140
+141                <data android:mimeType="text/x-vcard" />
+141-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:124:13-53
+141-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:124:19-50
+142            </intent-filter>
+143            <!-- This allows us to handle sharing any plain text . -->
+144            <intent-filter>
+144-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:127:10-131:26
+145                <action android:name="android.intent.action.SEND" />
+145-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:122:13-65
+145-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:122:21-62
+146
+147                <category android:name="android.intent.category.DEFAULT" />
+147-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:13-72
+147-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:23-69
+148
+149                <data android:mimeType="text/plain" />
+149-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:124:13-53
+149-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:124:19-50
+150            </intent-filter>
+151        </activity>
+152        <activity
+152-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:133:7-142:18
+153            android:name="com.google.zxing.client.android.book.SearchBookContentsActivity"
+153-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:134:11-58
+154            android:label="@string/sbc_name"
+154-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:135:11-43
+155            android:screenOrientation="sensorLandscape"
+155-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:136:11-54
+156            android:stateNotNeeded="true" >
+156-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:137:11-40
+157            <intent-filter>
+157-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:138:10-141:26
+158                <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS" />
+158-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:139:13-91
+158-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:139:21-88
+159
+160                <category android:name="android.intent.category.DEFAULT" />
+160-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:13-72
+160-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:23-69
+161            </intent-filter>
+162        </activity>
+163        <activity
+163-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:143:7-151:18
+164            android:name="com.google.zxing.client.android.share.ShareActivity"
+164-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:144:11-46
+165            android:screenOrientation="user"
+165-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:145:11-43
+166            android:stateNotNeeded="true" >
+166-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:146:11-40
+167            <intent-filter>
+167-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:147:10-150:26
+168                <action android:name="com.google.zxing.client.android.SHARE" />
+168-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:148:13-76
+168-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:148:21-73
+169
+170                <category android:name="android.intent.category.DEFAULT" />
+170-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:13-72
+170-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:118:23-69
+171            </intent-filter>
+172        </activity>
+173        <activity
+173-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:152:7-155:43
+174            android:name="com.google.zxing.client.android.history.HistoryActivity"
+174-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:153:11-50
+175            android:label="@string/history_title"
+175-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:154:11-48
+176            android:stateNotNeeded="true" />
+176-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:155:11-40
+177        <activity
+177-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:156:7-159:43
+178            android:name="com.google.zxing.client.android.share.BookmarkPickerActivity"
+178-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:157:11-55
+179            android:label="@string/bookmark_picker_name"
+179-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:158:11-55
+180            android:stateNotNeeded="true" />
+180-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:159:11-40
+181        <activity
+181-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:160:7-163:43
+182            android:name="com.google.zxing.client.android.share.AppPickerActivity"
+182-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:161:11-50
+183            android:label="@string/app_picker_name"
+183-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:162:11-50
+184            android:stateNotNeeded="true" />
+184-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:163:11-40
+185        <activity
+185-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:164:7-168:43
+186            android:name="com.google.zxing.client.android.HelpActivity"
+186-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:165:11-39
+187            android:label="@string/menu_help"
+187-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:166:11-44
+188            android:screenOrientation="user"
+188-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:167:11-43
+189            android:stateNotNeeded="true" />
+189-->/Users/icong/Project/android/FixbugsArch/zxing/src/main/AndroidManifest.xml:168:11-40
+190    </application>
+191
+192</manifest>
