@@ -1,8 +1,8 @@
 apply plugin: 'maven-publish'
 
 def LIB_GROUP_ID = 'com.fixbugs.android'
-def LIB_ARTIFACT_ID = 'bankcard'
-def LIB_VERSION = '0.0.0'
+def LIB_ARTIFACT_ID = 'logger'
+def LIB_VERSION = '0.0.2'
 
 task sourceJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
